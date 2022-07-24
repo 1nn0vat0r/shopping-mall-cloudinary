@@ -8,7 +8,7 @@ function Footer() {
             flexDirection: 'column', alignItems: 'center',
             justifyContent: 'center', fontSize:'1rem'
         }}>
-           <p> Paulsplanet Travel  <Icon type="global" /></p>
+           <p> Tripus  <Icon type="global" /></p>
         </div>
     )
 }

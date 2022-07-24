@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f906a99e05452bac1a8258bf8322f4c3",
+    "revision": "08f12f31f07e19aaf954e7bcc6273d47",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.40e60438.chunk.css"
   },
   {
-    "revision": "08a9d54fd9aa97304182",
+    "revision": "7c6222c355c2f662c0a6",
     "url": "/static/css/main.7ef32e1b.chunk.css"
   },
   {
@@ -20,15 +20,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.9ccb871f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "08a9d54fd9aa97304182",
-    "url": "/static/js/main.f4030081.chunk.js"
+    "revision": "7c6222c355c2f662c0a6",
+    "url": "/static/js/main.de9cfe02.chunk.js"
   },
   {
     "revision": "ceeacef460f662874725",
     "url": "/static/js/runtime-main.60a1f217.js"
   },
   {
-    "revision": "880c1d2b03864dc7d44434ef35aed4b9",
-    "url": "/static/media/paulsplanetlogo.880c1d2b.png"
+    "revision": "77df38fe871cf1ab8cf13fbe3ae1d194",
+    "url": "/static/media/tripus.77df38fe.png"
   }
 ]);
