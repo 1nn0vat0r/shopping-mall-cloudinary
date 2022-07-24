@@ -8,7 +8,7 @@ function ImageSlider(props) {
                 {props.images.map((image, index) => (
                     <div key={index}>
                         <img style={{ width: '100%', maxHeight: '150px' }} 
-                            src={`https://travelplanetserver.herokuapp.com/${image}`} 
+                            src={`https://tripus-server.herokuapp.com/${image}`} 
                             alt="destination's landscape"
                         />
                     </div>

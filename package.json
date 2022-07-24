@@ -46,6 +46,6 @@
     ]
   },
   
-  "proxy": "https://travelplanetserver.herokuapp.com/"
+  "proxy": "https://tripus-server.herokuapp.com/"
 }
 

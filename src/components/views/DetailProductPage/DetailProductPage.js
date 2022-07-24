@@ -10,7 +10,7 @@ function DetailProductPage (props) {
 
 
     useEffect(() => {
-        axios.get(`https://travelplanetserver.herokuapp.com/api/product/products_by_id?id=${productId}&type=single`)
+        axios.get(`https://tripus-server.herokuapp.com/api/product/products_by_id?id=${productId}&type=single`)
             .then(response => {
                 setProduct(response.data[0]) 
             })

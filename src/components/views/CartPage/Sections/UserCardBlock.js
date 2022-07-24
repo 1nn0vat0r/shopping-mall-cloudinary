@@ -6,7 +6,7 @@ function UserCardBlock (props) {
     const renderCartImage = (images) => {
         if(images.length > 0) {
             let image = images[0];
-            return `https://travelplanetserver.herokuapp.com/${image}`;
+            return `https://tripus-server.herokuapp.com/${image}`;
         }
     }
 

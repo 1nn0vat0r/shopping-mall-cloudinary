@@ -71,7 +71,7 @@ export function addToCart(id){
 
 export function getCartItems(cartItems, userCart) {
     
-    const request = axios.get(`https://travelplanetserver.herokuapp.com/api/product/products_by_id?id=${cartItems}&type=array`)
+    const request = axios.get(`https://tripus-server.herokuapp.com/api/product/products_by_id?id=${cartItems}&type=array`)
         .then(response => {
             userCart.forEach(cartItem => {
                 response.data.forEach((productDetail, index) => {
@@ -92,7 +92,7 @@ export function getCartItems(cartItems, userCart) {
 
 export function removeCartItem(productId) {
     
-    const request = axios.get(`https://travelplanetserver.herokuapp.com/api/users/removeFromCart?id=${productId}`, { withCredentials: true })
+    const request = axios.get(`https://tripus-server.herokuapp.com/api/users/removeFromCart?id=${productId}`, { withCredentials: true })
         .then(response => {
             response.data.cart.forEach(item => {
                 response.data.productInfo.forEach((product, index) => {
@@ -113,7 +113,7 @@ export function removeCartItem(productId) {
 
 export function onSuccessBuy(data) {
     
-    const request = axios.post(`https://travelplanetserver.herokuapp.com/api/users/successBuy`, data, { withCredentials: true })
+    const request = axios.post(`https://tripus-server.herokuapp.com/api/users/successBuy`, data, { withCredentials: true })
         .then(response => response.data);
 
     return {
@@ -138,7 +138,7 @@ export function addToMyPick(id){
 
 export function removeMyPickItem(productId) {
     
-    const request = axios.get(`https://travelplanetserver.herokuapp.com/api/users/removeFromMyPick?id=${productId}`, { withCredentials: true })
+    const request = axios.get(`https://tripus-server.herokuapp.com/api/users/removeFromMyPick?id=${productId}`, { withCredentials: true })
         .then(response => response.data)
 
     return {
